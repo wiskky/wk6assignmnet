@@ -9,8 +9,6 @@ const app = express();
 app.use(json());
 
 app.use("/", routes);
-app.use("/", routes);
-
 
 const port = process.env.PORT || 3000;
 
